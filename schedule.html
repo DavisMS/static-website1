@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+	<!--
+		Name: Matthew Davis
+		File Name: schedule.html
+		Today's Date: 12 / 11 / 2022
+	-->
+<html lang="en">
+<head>
+	<title>Heads to Tails</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/SecondStyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400i%7cRoboto&display=swap" rel="stylesheet">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">		<!-- Favicon: Made With favicon.io -->
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+</head>
+<body>
+
+	<!-- Header Area -->
+	<header>
+	 <h1>Heads to Tails</h1>
+ </header>
+
+	<!-- Navigation Bar -->
+ 	<nav>
+			<ul>
+				<li class="round"><a href="index.html">Home</a></li>
+				<li class="round"><a href="aboutUs.html">About Us</a></li>
+				<li class="round"><a href="service.html">Services</a></li>
+				<li class="round"><a href="schedule.html">Scheduling</a></li>
+				<li class="round"><a href="contact.html">Contact</a></li>
+			</ul>
+ 	</nav>
+
+	<!-- Main Area & Content -->
+	<main>
+
+		<div id="groomingTxt">
+			<form action="#" method="post">
+      	<label for="name">Owner:</label>
+      		<input type="text" id="name" name="name" required="">
+      	<label for="pname">Pet Name:</label>
+      		<input type="text" id="pname" name="pname" required="">
+      	<label for="age">Age:</label>
+      		<input type="text" id="age" name="age" required="">
+      	<label for="species">Species:</label>
+      		<input type="text" id="species" name="species" required="">
+      	<label for="mail">E-mail:</label>
+      		<input type="email" id="mail" name="mail" placeholder="E@Eprovider.com" required="">
+      	<label for="phone">Phone:</label>
+      		<input type="tel" id="phone" name="phone" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" placeholder="(nnn) nnn-nnnn" required="">
+      	<label for="msg">Message:</label>
+      		<textarea id="msg" name="msg"></textarea>
+					<input type="button" class="button" value="Submit" onclick="myFunction()">
+			</form>
+		</div>
+
+		<div id="conInfo">
+			<p>Please fill out the form to the left and press submit. Heads to Tails will contact you for a personal
+				assessment of your pet.</p>
+			<p>The message box is for any specific services you want/don't want, meaningful
+				information about your pet, and your preferred means of contact (Email &#128231; / Phone &#9742;)</p>
+			<p>Heads to Tails will contact you within 1-2 business days after your form
+				is received and processed. Thank you.</p>
+		</div>
+
+</main>
+	 <footer>
+ 		<p>Webpage created by: Matthew Davis.</p>
+ 		<p>Favicon made with <a href="https://favicon.io/favicon-generator/" style="text-decoration:none" target="_blank">favicon.io</a></p>
+ 		<p>&copy; Copyright 2022. All Rights Reserved.</p>
+ 	</footer>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
